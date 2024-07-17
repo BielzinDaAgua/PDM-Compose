@@ -44,7 +44,7 @@ fun JetpackComposeTutorial() {
         Image(
             painter = painterResource(id = R.drawable.bg_compose_background),
             contentDescription = null,
-            contentScale = ContentScale.Crop,
+            contentScale = ContentScale.FillWidth,
             modifier = Modifier
                 .fillMaxWidth()
         )
