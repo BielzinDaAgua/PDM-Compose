@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "galeria"
 include(":app")
+include(":app:task")
