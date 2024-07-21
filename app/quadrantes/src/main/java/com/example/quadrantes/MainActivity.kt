@@ -91,11 +91,13 @@ fun QuadranteCard(
     ) {
         Text(
             text = title,
+            color = Color.Black,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(bottom = 16.dp)
         )
         Text(
             text = description,
+            color = Color.Black,
             fontSize = 16.sp
         )
     }
